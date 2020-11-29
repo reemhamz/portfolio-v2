@@ -54,8 +54,9 @@ export default {
   height: 100vh;
   display: flex;
   justify-content: center;
+  margin-bottom: 80px;
+
   &__wrapper {
-    margin: 0 120px;
     background-color: $navy;
     align-self: center;
     width: 100%;
@@ -70,13 +71,13 @@ export default {
     .container {
       margin-left: 80px;
 
-      span {
-        font-family: 'Niramit', sans-serif;
+      span, &__tldr {
+        font-family: $Niramit;
       }
 
       &__title {
         color: $orange;
-        font-family: 'Prospectus Pro L DEMO';
+        font-family: $Prospectus;
         text-transform: lowercase;
         font-size: 5rem;
         margin: -20px 0;
@@ -87,7 +88,6 @@ export default {
 
         img {
           height: 200px;
-          display: block;
         }
       }
 
@@ -98,7 +98,7 @@ export default {
         position: absolute;
         top: 20px;
         left: 20px;
-        border: 3px dashed $navy;
+        border: 4px dashed $navy;
         z-index: -10;
       }
     }
