@@ -61,7 +61,6 @@ export default {
     align-self: center;
     width: 100%;
     padding: 20px;
-    font-size: 1.5rem;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -71,8 +70,13 @@ export default {
     .container {
       margin-left: 80px;
 
-      span, &__tldr {
+      span {
+        font-size: 1.5rem;
+      }
+
+      &__tldr {
         font-family: $Niramit;
+        font-size: 1.3rem;
       }
 
       &__title {
@@ -88,6 +92,7 @@ export default {
 
         img {
           height: 200px;
+          max-width: 100%;
         }
       }
 

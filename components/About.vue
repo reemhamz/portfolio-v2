@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div class="about__image">
-      <img src="~/assets/images/figs.jpg" alt="" />
+      <img src="~/assets/images/turkish-coffee.jpg" alt="" />
     </div>
     <div class="about__text">
       <h2>about me</h2>
@@ -44,26 +44,57 @@ export default {}
   height: 60vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   border: 4px dashed $orange;
   position: relative;
+//   z-index: -20;
   margin-bottom: 80px;
-
 
   &__image {
     margin: 0 80px;
+    position: relative;
+    width: 30%;
 
+    img {
+      object-fit: cover;
+      height: 460px;
+      width: 100%;
+      
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      height: 100%;
+      width: 100%;
+      background: rgba($navy, 0.5);
+      z-index: -10;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      height: 100%;
+      width: 100%;
+      background: $navy;
+      z-index: -10;
+    }
   }
 
   &__text {
     margin-right: 80px;
     font-family: $Niramit;
     font-size: 1.2rem;
+    height: 100%;
+    width: 45%;
 
     h2 {
-        font-family: $Prospectus;
-        font-size: 3.5rem;
-        color: $navy;
+      font-family: $Prospectus;
+      font-size: 3.5rem;
+      color: $navy;
     }
   }
 }
