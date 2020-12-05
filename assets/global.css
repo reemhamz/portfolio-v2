@@ -1,11 +1,66 @@
-html {
-    font-size: 62.5%;
-    margin: 0 auto;
-    max-width: 1400px;
-    width: 80%;
+body {
+  font-size: 62.5%;
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 80%;
+}
+
+h1 {
+  font-size: 8em;
+  color: #cb7752;
+  font-family: 'Prospectus Pro L DEMO', serif;
+  text-transform: lowercase;
+}
+
+h2 {
+  font-family: 'Prospectus Pro L DEMO', serif;
+  font-size: 5.6em;
+  line-height: 0.8;
+  margin-bottom: 20px;
+}
+
+p,
+li {
+  font-family: 'Niramit', sans-serif;
+  font-size: 1.92em;
 }
 
 img {
-    display: block;
-    /* max-width: 100%; */
+  display: block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #006c67;
+  position: relative;
+  transition: color 0.3s ease;
+  padding: 0 2px;
+  font-style: italic;
+}
+
+a:hover {
+  color: white;
+  z-index: 100;
+}
+
+a:before {
+  content: '';
+  background-color: #006c67;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  transition: height 0.2s ease-in-out;
+}
+
+a:hover:before {
+  content: '';
+  background-color: #006c67;
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
 }

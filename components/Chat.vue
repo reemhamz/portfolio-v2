@@ -45,7 +45,7 @@ export default {}
 
   &__header {
     background-color: $orange;
-    font-size: 1.5rem;
+    font-size: 2.4em;
     color: $white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -69,13 +69,14 @@ export default {}
 
       &__title {
         color: $darkTeal;
-        font-size: 1rem;
+        font-size: 1.6em;
       }
 
       &__text {
-        color: $techGreen;
-        font-size: 1.2rem;
+        color: $grey;
+        font-size: 1.92em;
         margin-left: 10px;
+        font-family: $Plex;
       }
     }
 
@@ -84,12 +85,13 @@ export default {}
 
       &__title {
         color: $orange;
-        font-size: 1rem;
+        font-size: 1.6em;
       }
 
       &__text {
-        color: $techGreen;
-        font-size: 1.2rem;
+        color: $grey;
+        font-size: 1.92em;
+        font-family: $Plex;
       }
     }
   }
