@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <Header />
+    <About />
   </div>
 </template>
 
@@ -9,7 +10,6 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-  .container {
-  }
+
 </style>
 

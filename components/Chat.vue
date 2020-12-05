@@ -41,7 +41,7 @@ export default {}
 .chat {
   height: 500px;
   width: 320px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: $Plex;
 
   &__header {
     background-color: $orange;
