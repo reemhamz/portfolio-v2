@@ -29,12 +29,10 @@
       <br />
       <p>
         Like every developer, my blood runs on coffee
-        <span role="img" aria-label="cup of coffee">☕️</span>, I'm also really into Levantine cooking
-        <span role="img" aria-label="female chef holding spatula">👩🏻‍🍳</span>.
-      </p>
-      <br />
-      <p>
-        I'm a new fan of dystopian books
+        <span role="img" aria-label="cup of coffee">☕️</span>. I'm really into Levantine cooking
+        <span role="img" aria-label="female chef holding spatula">👩🏻‍🍳</span>,
+      
+       a new fan of dystopian books
         <span role="img" aria-label="zombie with arms out">🧟‍♀️</span>, recent
         plant mama <span role="img" aria-label="sunflower">🌻</span>, and
         aspiring cottage-core lady

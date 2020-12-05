@@ -54,9 +54,8 @@ export default {}
 .toolkit {
   width: 100%;
   padding: 20px;
-  border: 2px dashed orange;
+  border: 4px dashed $orange;
   display: inline-block;
-  border-radius: 20px;
   position: relative;
   background-color: $white;
   margin-bottom: 80px;

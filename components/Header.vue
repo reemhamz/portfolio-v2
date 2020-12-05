@@ -62,10 +62,6 @@ export default {
     width: 100%;
     padding: 20px;
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
 
     .container {
       margin-left: 80px;
@@ -76,11 +72,9 @@ export default {
 
       &__title {
         margin: -20px 0;
-        // font-size: 5rem;
       }
       &__tldr {
         font-family: $Niramit;
-        // font-size: 1.1em;
       }
 
       &__gpoy {
