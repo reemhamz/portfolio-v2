@@ -71,7 +71,7 @@ export default {
       margin-left: 80px;
 
       &__greetings {
-        font-size: 2.4em;
+        font-size: 2em;
       }
 
       &__title {
@@ -80,7 +80,7 @@ export default {
       }
       &__tldr {
         font-family: $Niramit;
-        font-size: 1.9em;
+        // font-size: 1.1em;
       }
 
       &__gpoy {
