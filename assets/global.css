@@ -1,9 +1,8 @@
 @font-face {
-  font-family: "Prospectus Pro L DEMO";
-  src:
-  url(~assets/fonts/Prospectus/ProspectusProLDemo-Bold.woff2) format("woff2");
+  font-family: 'Prospectus Pro L DEMO';
+  src: url(~assets/fonts/Prospectus/ProspectusProLDEMO-Bold.woff2)
+    format('woff2');
 }
-
 
 body {
   font-size: 62.5%;
