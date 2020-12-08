@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Prospectus Pro L DEMO";
+  src:
+  url(~assets/fonts/Prospectus/ProspectusProLDemo-bold.woff2) format("woff2");
+}
+
+
 body {
   font-size: 62.5%;
   margin: 0 auto;
@@ -8,8 +15,9 @@ body {
 h1 {
   font-size: 8em;
   color: #cb7752;
-  font-family: 'Prospectus Pro L DEMO', serif;
+  font-family: 'Prospectus Pro L DEMO';
   text-transform: lowercase;
+  font-weight: 300;
 }
 
 h2 {
@@ -36,7 +44,6 @@ a {
   position: relative;
   transition: color 0.3s ease;
   padding: 0 2px;
-  font-style: italic;
 }
 
 a:hover {

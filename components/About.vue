@@ -16,13 +16,13 @@
       <br>
       <p>
         I'm really into web accessibility
-        <a
+        (<a
           href="https://fueled.com/blog/what-is-web-accessibility/"
           rel="noreferrer noopener"
           target="_blank"
           class="accessibility-article"
-          >(peep my article)</a
-        >
+          >peep my article</a
+        >)
         and focusing on the user experience. I'm dabbling with creative web
         design and I'm excited to see where all these skills take me over time.
       </p>
