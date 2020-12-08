@@ -10,14 +10,18 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200&family=Niramit:wght@200;300;400&display=swap',
+      },
+    ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [
-    '@/assets/setup.css',
-    '@/assets/global.css',
-  ],
+  css: ['@/assets/setup.css', '@/assets/global.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
@@ -42,10 +46,8 @@ export default {
 
   //style resources object... add your variables/mixins/function files in here, so they would be globally imported to every component!!
   styleResources: {
-    scss: [
-        '~/assets/scss/variables.scss',
-    ]
-},
+    scss: ['~/assets/scss/variables.scss'],
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
