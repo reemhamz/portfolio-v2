@@ -1,5 +1,6 @@
 <template>
   <aside class="toolkit">
+    <div class="toolkit__info">
     <h2>an honest skillset</h2>
     <p>
       Tbh, I'm always picking up new things and sharpening up on fundamentals.
@@ -14,6 +15,8 @@
         >Nuxt</a
       >). Anyway, here are my current skills:
     </p>
+
+    </div>
     <br />
     <ul class="toolkit__list">
       <li class="toolkit__list-item">
@@ -58,14 +61,28 @@ export default {}
   display: inline-block;
   position: relative;
   background-color: $white;
-  margin-bottom: 80px;
+  margin-bottom: 150px;
+  // display: flex;
 
-  h2 {
-    color: $navy;
+
+  &__info {
+    // width: 45%;
+    // margin-left: 80px;
+    margin: 0 80px;
+
+      h2 {
+        color: $navy;
+      }
+
+      p {
+        width: 80%;
+      }
   }
 
   &__list {
     list-style: none;
+    // margin: 80px;
+    margin: 0 80px;
   }
 
   &__type {

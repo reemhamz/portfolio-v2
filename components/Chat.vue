@@ -39,9 +39,14 @@ export default {}
 
 <style lang="scss" scoped>
 .chat {
-  height: 500px;
+  // height: 100%;
   width: 320px;
   font-family: $Plex;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  height: 100%;
 
   &__header {
     background-color: $orange;

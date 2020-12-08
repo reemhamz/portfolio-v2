@@ -56,7 +56,7 @@ export default {}
   align-items: center;
   border: 4px dashed $orange;
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 
   &__image {
     margin-left: 80px;
