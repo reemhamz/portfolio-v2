@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Wip />
     <Nuxt />
   </div>
 </template>

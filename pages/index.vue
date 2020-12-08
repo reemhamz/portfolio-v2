@@ -2,14 +2,22 @@
   <div class="container">
     <Header />
     <About />
+    <Toolkit />
+    <!-- <nuxt-content :document="welcome" /> -->
   </div>
 </template>
 
 <script>
-export default {}
+import Toolkit from '~/components/Toolkit.vue'
+export default {
+  async asyncData({ $content, params }) {
+    const welcome = await $content('welcome').fetch()
+    return { welcome }
+  },
+}
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="
+Toolkitscss" scoped>
 </style>
 

@@ -4,33 +4,42 @@
       <img src="~/assets/images/turkish-coffee.jpg" alt="" />
     </div>
     <div class="about__text">
-      <h2>about me</h2>
+      <h2 class="about__title">about me</h2>
       <p>
-        I'm a front-end developer based in Toronto currently working at
+        I'm a front-end developer based in Toronto currently working @
         <a href="https://fueled.com" rel="noreferrer noopener" target="_blank"
           >Fueled</a
-        >! I started editing themes on Tumblr back in 2010 (just making heading
-        tags). Now I'm building full-on websites, professionally!
+        >
+        <span role="img" aria-label="fuel pump">⛽️</span>!
+      </p>
+      <br />
+      <br>
+      <p>
+        I'm really into web accessibility
+        (<a
+          href="https://fueled.com/blog/what-is-web-accessibility/"
+          rel="noreferrer noopener"
+          target="_blank"
+          class="accessibility-article"
+          >peep my article</a
+        >)
+        and focusing on the user experience. I'm dabbling with creative web
+        design and I'm excited to see where all these skills take me over time.
       </p>
       <br />
       <p>
-        I'm really into web accessibility and focusing on the user experience.
-        I'm dabbling with creative web design and I'm excited to see what all
-        these skills help me produce over time. Also a follower of the
-        <a
-          href="https://jamstack.org/"
-          rel="noreferrer noopener"
-          target="_blank"
-          >Jamstack</a
-        >
-        <span role="img" aria-label="grapes">🍇</span>
-        <span role="img" aria-label="stack of pancakes">🥞</span> movement, so
-        much that this website is built using
-        <a href="https://nuxtjs.org/" rel="noreferrer noopener" target="_blank"
-          >Nuxt.js</a
-        >, a static site generator with the core Jamstack methodology in mind.
+        Like every developer, my blood runs on coffee
+        <span role="img" aria-label="cup of coffee">☕️</span>. I'm really into Levantine cooking
+        <span role="img" aria-label="female chef holding spatula">👩🏻‍🍳</span>,
+      
+       a new fan of dystopian books
+        <span role="img" aria-label="zombie with arms out">🧟‍♀️</span>, recent
+        plant mama <span role="img" aria-label="sunflower">🌻</span>, and
+        aspiring cottage-core lady
+        <span role="img" aria-label="farm girl with carrot and straw hat"
+          >👩🏻‍🌾</span
+        >.
       </p>
-      <br />
     </div>
   </div>
 </template>
@@ -41,24 +50,25 @@ export default {}
 
 <style lang="scss" scoped>
 .about {
-  height: 60vh;
+  padding: 40px 0;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   border: 4px dashed $orange;
   position: relative;
-//   z-index: -20;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 
   &__image {
-    margin: 0 80px;
-    position: relative;
-    width: 30%;
+    margin-left: 80px;
+    position: absolute;
+    left: 0;
+    height: calc(100% + 60px);
+    width: 35%;
 
     img {
       object-fit: cover;
-      height: 460px;
+      height: 100%;
       width: 100%;
-      
     }
 
     &::before {
@@ -86,16 +96,13 @@ export default {}
 
   &__text {
     margin-right: 80px;
-    font-family: $Niramit;
-    font-size: 1.2rem;
-    height: 100%;
     width: 45%;
+    margin-left: auto;
+    align-self: center;
+  }
 
-    h2 {
-      font-family: $Prospectus;
-      font-size: 3.5rem;
-      color: $navy;
-    }
+  &__title {
+   color: $navy;
   }
 }
 </style>

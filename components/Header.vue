@@ -62,29 +62,19 @@ export default {
     width: 100%;
     padding: 20px;
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
 
     .container {
       margin-left: 80px;
 
-      span {
-        font-size: 1.5rem;
-      }
-
-      &__tldr {
-        font-family: $Niramit;
-        font-size: 1.3rem;
+      &__greetings {
+        font-size: 2em;
       }
 
       &__title {
-        color: $orange;
-        font-family: $Prospectus;
-        text-transform: lowercase;
-        font-size: 5rem;
         margin: -20px 0;
+      }
+      &__tldr {
+        font-family: $Niramit;
       }
 
       &__gpoy {
