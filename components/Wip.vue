@@ -3,7 +3,7 @@
     <div class="wip">
       <p>
         👋🏻 Hi! This is all still a work in progress and has been published for
-        testing purposes. It's not even mobile friendly, yet!. Pls be kind 👩🏻‍🔧
+        testing purposes. It's not even mobile friendly, yet! 👩🏻‍🔧
       </p>
     </div>
   </div>
