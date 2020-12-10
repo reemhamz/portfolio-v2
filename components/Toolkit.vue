@@ -56,7 +56,7 @@ export default {}
 <style lang="scss" scoped>
 .toolkit {
   width: 100%;
-  padding: 20px;
+  padding: 40px 0;
   border: 4px dashed $orange;
   display: inline-block;
   position: relative;
