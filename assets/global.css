@@ -1,6 +1,18 @@
 @font-face {
-  font-family: 'Prospectus Pro L DEMO';
+  font-family: 'Prospectus Bold';
   src: url(~assets/fonts/Prospectus/ProspectusProLDEMO-Bold.woff2)
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'Prospectus Regular';
+  src: url(~assets/fonts/Prospectus/ProspectusProLDEMO-SemiBold.woff2)
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'Prospectus Light';
+  src: url(~assets/fonts/Prospectus/ProspectusProLDEMO-Light.woff2)
     format('woff2');
 }
 
@@ -14,20 +26,25 @@ body {
 h1 {
   font-size: 8em;
   color: #cb7752;
-  font-family: 'Prospectus Pro L DEMO';
+  font-family: 'Prospectus Bold', serif;
   text-transform: lowercase;
   font-weight: 300;
 }
 
 h2 {
-  font-family: 'Prospectus Pro L DEMO', serif;
+  font-family: 'Prospectus Regular', serif;
   font-size: 5.6em;
   line-height: 0.8;
-  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: 'Prospectus Regular', serif;
+  font-size: 4em;
 }
 
 p,
-li {
+li,
+button {
   font-family: 'Niramit', sans-serif;
   font-size: 1.92em;
 }
@@ -69,4 +86,26 @@ a:hover:before {
   height: 100%;
   width: 100%;
   z-index: -10;
+}
+
+button {
+  display: inline-block;
+  background-color: transparent;
+  color: #006c67;
+  text-transform: lowercase;
+  padding: 10px 15px;
+  margin-right: 10px;
+  box-shadow: 5px 5px 0 #006c67;
+  border: 2px dashed #006c67;
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: 0.25s ease-in-out;
+}
+button:hover {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  /* border: 2px solid #006c67; */
+  top: 5px;
+  left: 5px;
 }

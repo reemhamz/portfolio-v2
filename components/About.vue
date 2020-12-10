@@ -103,6 +103,7 @@ export default {}
 
   &__title {
    color: $navy;
+    margin-bottom: 20px; 
   }
 }
 </style>
