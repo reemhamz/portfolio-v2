@@ -36,7 +36,6 @@ h2 {
   font-size: 5.6em;
   line-height: 0.8;
   margin-bottom: 20px;
-
 }
 
 h3 {
@@ -46,8 +45,14 @@ h3 {
 
 p,
 li,
-button {
+button,
+span {
   font-family: 'Niramit', sans-serif;
+}
+
+p,
+li,
+.button {
   font-size: 1.92em;
 }
 
@@ -90,7 +95,7 @@ a:hover:before {
   z-index: -10;
 }
 
-button {
+.button {
   display: inline-block;
   background-color: transparent;
   color: #006c67;
@@ -104,10 +109,18 @@ button {
   left: 0;
   transition: 0.25s ease-in-out;
 }
-button:hover {
+.button:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
-  /* border: 2px solid #006c67; */
   top: 5px;
   left: 5px;
+  color: #006c67;
+}
+
+.button:before {
+  position: static;
+}
+
+.button:hover:before {
+  position: static;
 }

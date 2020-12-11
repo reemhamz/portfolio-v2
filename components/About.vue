@@ -1,4 +1,4 @@
-<template>
+<template class="main">
   <div class="about">
     <div class="about__image">
       <img src="~/assets/images/turkish-coffee.jpg" alt="" />
@@ -6,8 +6,8 @@
     <div class="about__text">
       <h2 class="about__title">about me</h2>
       <p>
-        I'm a front-end developer based in Toronto currently working @
-        <a href="https://fueled.com" rel="noreferrer noopener" target="_blank"
+        I'm a front-end developer in Toronto currently working @
+        <a href="https://fueled.com/reem" rel="noreferrer noopener" target="_blank"
           >Fueled</a
         >
         <span role="img" aria-label="fuel pump">⛽️</span>!

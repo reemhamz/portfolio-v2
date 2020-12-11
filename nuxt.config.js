@@ -42,6 +42,8 @@ export default {
     '@nuxt/content',
     // https://github.com/nuxt-community/style-resources-module
     '@nuxtjs/style-resources',
+    // Scrolling package
+    'vue-scrollto/nuxt',
   ],
 
   //style resources object... add your variables/mixins/function files in here, so they would be globally imported to every component!!

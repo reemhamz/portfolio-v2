@@ -34,19 +34,22 @@
             lebanese diasporite
           </p>
         </div>
-        
       </div>
       <div class="header__chat">
         <Chat />
       </div>
     </div>
-    <!-- <div class="arrow">
-            <a href="#" aria-label="Scroll to main section" tabindex="0">
+    <div class="arrow">
+            <a href="#" aria-label="Scroll to main section" tabindex="0" v-scroll-to="{
+              el: '.about',
+              offset: -80,
+              duration: 600,
+            }">
                 <span></span>
                 <span></span>
                 <span></span>
             </a>
-        </div> -->
+        </div>
   </header>
 </template>
 
@@ -61,7 +64,7 @@ export default {
   color: $white;
   height: 100vh;
   display: flex;
-  justify-content: center;;
+  justify-content: center;
   margin-bottom: 80px;
 
   &__wrapper {
@@ -78,14 +81,7 @@ export default {
       margin-left: 80px;
 
       &__greetings {
-        font-size: 2em;
-      }
-
-      &__title {
-        margin: -20px 0;
-      }
-      &__tldr {
-        font-family: $Niramit;
+        font-size: 2.3em;
       }
 
       &__gpoy {
@@ -120,51 +116,49 @@ export default {
   }
 
   // Arrow styling
-.arrow{
+  .arrow {
     cursor: pointer;
     position: absolute;
-    bottom: -40px;
+    bottom: 3%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 10;
 
-    a{
+    a {
       &::before {
-        content: "";
+        content: '';
         height: 0;
       }
-
     }
-    
-}
-.arrow span{
+  }
+  .arrow span {
     display: block;
     width: 25px;
     height: 25px;
     border-bottom: 4px solid $orange;
-    border-right: 4px solid $orange; 
+    border-right: 4px solid $orange;
     transform: rotate(45deg);
     margin: -5px;
     animation: animate 1.5s infinite;
-}
-.arrow span:nth-child(2){
+  }
+  .arrow span:nth-child(2) {
     animation-delay: -0.2s;
-}
-.arrow span:nth-child(3){
+  }
+  .arrow span:nth-child(3) {
     animation-delay: -0.4s;
-}
-@keyframes animate {
-    0%{
-        opacity: 0;
-        transform: rotate(45deg) translate(-20px,-20px);
+  }
+  @keyframes animate {
+    0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
     }
-    50%{
-        opacity: 1;
+    50% {
+      opacity: 1;
     }
-    100%{
-        opacity: 0;
-        transform: rotate(45deg) translate(20px,20px);
+    100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
     }
-}
+  }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="projects">
-    <h2>Projects</h2>
+    <h2>projects</h2>
     <div class="project left">
       <div class="project__image">
         <img src="~assets/images/polaroid.jpg" alt="" />
@@ -20,8 +20,20 @@
           </p>
         </div>
         <div class="project__buttons">
-          <button class="project__button">View live</button>
-          <button class="project__button">View code</button>
+          <a
+            href="https://reemhamz.github.io/pokedex-app/"
+            class="project__button button"
+            rel="noreferrer noopener"
+            target="_blank"
+            >View live</a
+          >
+          <a
+            href="https://github.com/reemhamz/pokedex-app"
+            class="project__button button"
+            rel="noreferrer noopener"
+            target="_blank"
+            >View code</a
+          >
         </div>
       </div>
     </div>
@@ -51,8 +63,18 @@
           </p>
         </div>
         <div class="project__buttons">
-          <button class="project__button">View live</button>
-          <button class="project__button">View code</button>
+          <a
+            href="https://agameofdevs.github.io/westerosi-wiki/"
+            class="project__button button"
+            rel="noreferrer noopener"
+            >View live</a
+          >
+          <a
+            href="https://github.com/agameofdevs/westerosi-wiki"
+            class="project__button button"
+            target="_blank"
+            >View code</a
+          >
         </div>
       </div>
     </div>
@@ -77,8 +99,18 @@
           </p>
         </div>
         <div class="project__buttons">
-          <button class="project__button">View live</button>
-          <button class="project__button">View code</button>
+          <a
+            href="https://reemhamz.github.io/trippyTinctureProjectFive/"
+            class="project__button button"
+            rel="noreferrer noopener"
+            >View live</a
+          >
+          <a
+            href="https://github.com/reemhamz/trippyTinctureProjectFive"
+            class="project__button button"
+            target="_blank"
+            >View code</a
+          >
         </div>
       </div>
     </div>
@@ -102,8 +134,18 @@
           </p>
         </div>
         <div class="project__buttons">
-          <button class="project__button">View live</button>
-          <button class="project__button">View code</button>
+          <a
+            href="https://reemhamz.github.io/reemHamouiprojectThree/"
+            class="project__button button"
+            rel="noreferrer noopener"
+            >View live</a
+          >
+          <a
+            href="https://github.com/reemhamz/reemHamouiprojectThree"
+            class="project__button button"
+            target="_blank"
+            >View code</a
+          >
         </div>
       </div>
     </div>
@@ -117,20 +159,21 @@ export default {}
 <style lang="scss" scoped>
 .projects {
   margin-bottom: 150px;
-
+  display: flex;
+  flex-direction: column;
   h2 {
     color: $orange;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 
   .project {
     border: 4px dashed $darkTeal;
+    width: 70%;
     display: flex;
     justify-content: space-evenly;
     height: 100%;
     position: relative;
-    align-self: center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     &__image {
       height: calc(100% + 70px);
       position: absolute;
@@ -201,14 +244,15 @@ export default {}
   .right {
     display: flex;
     flex-direction: column;
+    align-self: flex-end;
 
     .project__info {
       margin-left: 0;
     }
 
     .project__image {
-        right: 0;
-        left: auto;
+      right: 0;
+      left: auto;
     }
   }
 }

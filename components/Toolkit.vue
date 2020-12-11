@@ -1,21 +1,23 @@
 <template>
   <aside class="toolkit">
     <div class="toolkit__info">
-    <h2>an honest skillset</h2>
-    <p>
-      Tbh, I'm always picking up new things and sharpening up on fundamentals.
-      I'm currently rlly getting into
-      <a href="https://jamstack.org/" rel="noreferrer noopener" target="_blank"
-        >JamStack <span role="img" aria-label="grapes">🍇</span
-        ><span role="img" aria-label="stack of pancakes">🥞</span></a
-      >
-      because it prioritizes building speedy sites in a super easy way with
-      static site generators (this website is actually built using
-      <a href="https://nuxtjs.org/" rel="noreferrer noopener" target="_blank"
-        >Nuxt</a
-      >). Anyway, here are my current skills:
-    </p>
-
+      <h2>pretty good skillset</h2>
+      <p>
+        Tbh, I'm always picking up new things and sharpening up on fundamentals.
+        I'm currently rlly getting into
+        <a
+          href="https://jamstack.org/"
+          rel="noreferrer noopener"
+          target="_blank"
+          >JamStack <span role="img" aria-label="grapes">🍇</span
+          ><span role="img" aria-label="stack of pancakes">🥞</span></a
+        >
+        because it prioritizes building speedy sites in a super easy way with
+        static site generators (this website is actually built using
+        <a href="https://nuxtjs.org/" rel="noreferrer noopener" target="_blank"
+          >Nuxt</a
+        >). Anyway, here are my current skills:
+      </p>
     </div>
     <br />
     <ul class="toolkit__list">
@@ -62,21 +64,17 @@ export default {}
   position: relative;
   background-color: $white;
   margin-bottom: 150px;
-  // display: flex;
-
 
   &__info {
-    // width: 45%;
-    // margin-left: 80px;
     margin: 0 80px;
 
-      h2 {
-        color: $navy;
-      }
+    h2 {
+      color: $navy;
+    }
 
-      p {
-        width: 80%;
-      }
+    p {
+      width: 80%;
+    }
   }
 
   &__list {
