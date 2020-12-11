@@ -1,7 +1,7 @@
 <template>
   <aside class="toolkit">
     <div class="toolkit__info">
-      <h2>pretty good skillset</h2>
+      <h2>Pretty good skillset</h2>
       <p>
         Tbh, I'm always picking up new things and sharpening up on fundamentals.
         I'm currently rlly getting into
@@ -79,7 +79,6 @@ export default {}
 
   &__list {
     list-style: none;
-    // margin: 80px;
     margin: 0 80px;
   }
 

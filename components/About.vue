@@ -4,7 +4,7 @@
       <img src="~/assets/images/turkish-coffee.jpg" alt="" />
     </div>
     <div class="about__text">
-      <h2 class="about__title">about me</h2>
+      <h2 class="about__title">About the dev (me)</h2>
       <p>
         I'm a front-end developer in Toronto currently working @
         <a href="https://fueled.com/reem" rel="noreferrer noopener" target="_blank"

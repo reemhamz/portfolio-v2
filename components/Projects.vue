@@ -1,6 +1,6 @@
 <template>
   <div class="projects">
-    <h2>projects</h2>
+    <h2>Some of my work</h2>
     <div class="project left">
       <div class="project__image">
         <img src="~assets/images/polaroid.jpg" alt="" />
@@ -158,21 +158,25 @@ export default {}
 
 <style lang="scss" scoped>
 .projects {
+  padding: 40px 0;
   margin-bottom: 150px;
   display: flex;
   flex-direction: column;
+  border: 4px dashed $orange;
   h2 {
-    color: $orange;
+    color: $navy;
+    margin: 0 80px;
     margin-bottom: 80px;
   }
 
   .project {
     border: 4px dashed $darkTeal;
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
     height: 100%;
     position: relative;
+    margin: 0 80px;
     margin-bottom: 100px;
     &__image {
       height: calc(100% + 70px);
