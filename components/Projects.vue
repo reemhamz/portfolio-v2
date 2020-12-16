@@ -236,7 +236,7 @@ export default {}
 
       h3 {
         color: $darkTeal;
-
+        display: inline-block;
         position: relative;
 
         &::before {
