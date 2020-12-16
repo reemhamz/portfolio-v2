@@ -43,8 +43,13 @@
       </p>
       <br />
       <p>
-        Still curious? Here's a little profile about me from <a href="https://junocollege.com/blog/from-data-scientist-to-web-developer" rel="noreferrer noopener"
-          target="_blank">Juno College</a>. I'm a proud alum!
+        Still curious? Here's a little profile about me from
+        <a
+          href="https://junocollege.com/blog/from-data-scientist-to-web-developer"
+          rel="noreferrer noopener"
+          target="_blank"
+          >Juno College</a
+        >. I'm a proud alum!
       </p>
     </div>
   </div>
@@ -115,7 +120,6 @@ export default {}
     flex-direction: column;
     padding: 30px;
     &__image {
-      // display: none;
       position: relative;
       width: 100%;
       margin: 0;
@@ -135,9 +139,9 @@ export default {}
 
   @include max-width(600) {
     border: 0;
-    border-top: 2px dashed $orange;
-    border-bottom: 2px dashed $orange;
-    padding: 10px;
+    border-top: 4px dashed $orange;
+    border-bottom: 4px dashed $orange;
+    padding: 15px;
   }
 }
 </style>

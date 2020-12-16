@@ -88,5 +88,29 @@ export default {}
   &__skill {
     font-size: 0.9em;
   }
+
+  @include max-width(1170) {
+    
+    &__info {
+      margin: 0;
+      padding: 30px;
+      
+      p{
+        width: 100%;
+      }
+    }
+  }
+
+  @include max-width(700){
+
+    border: 0;
+    border-top: 4px dashed $orange;
+    border-bottom: 4px dashed $orange;
+
+    &__list {
+      margin: 0;
+      padding: 0 30px;
+    }
+  }
 }
 </style>
