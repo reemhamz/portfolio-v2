@@ -191,6 +191,7 @@ export default {
         margin: 20px;
 
         img {
+          height: 100%;
           width: 100%;
         }
       }
