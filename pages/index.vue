@@ -3,7 +3,8 @@
     <Header />
     <About />
     <Toolkit />
-    <Projects />
+    <!-- <Projects /> -->
+    <Stuff />
     <!-- <nuxt-content :document="welcome" /> -->
   </div>
 </template>
@@ -18,7 +19,6 @@ export default {
 }
 </script>
 
-<style lang="
-Toolkitscss" scoped>
-</style>
+<style lang="scss" scoped>
 
+</style>

@@ -40,16 +40,21 @@
       </div>
     </div>
     <div class="arrow">
-            <a href="#" aria-label="Scroll to main section" tabindex="0" v-scroll-to="{
-              el: '.about',
-              offset: -80,
-              duration: 600,
-            }">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
-        </div>
+      <a
+        href="#"
+        aria-label="Scroll to main section"
+        tabindex="0"
+        v-scroll-to="{
+          el: '.about',
+          offset: -80,
+          duration: 600,
+        }"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
   </header>
 </template>
 
@@ -85,7 +90,7 @@ export default {
       }
 
       &__gpoy {
-        margin: 20px 0;
+        margin: 10px 0;
 
         img {
           height: 250px;
@@ -113,13 +118,21 @@ export default {
     right: 0;
     align-self: center;
     height: calc(100% + 60px);
+
+    @include max-width(1170) {
+      position: relative;
+    }
+
+    @include max-width(940) {
+      display: none;
+    }
   }
 
   // Arrow styling
   .arrow {
     cursor: pointer;
     position: absolute;
-    bottom: 3%;
+    bottom: 1%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
@@ -158,6 +171,49 @@ export default {
     100% {
       opacity: 0;
       transform: rotate(45deg) translate(20px, 20px);
+    }
+  }
+
+  @include max-width(940) {
+    .container {
+      margin: 0 auto;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: space-evenly;
+
+      &__greetings {
+        margin-bottom: 20px;
+      }
+
+      &__gpoy {
+        margin: 20px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @include max-width(600) {
+    &__wrapper {
+      padding: 0;
+      height: 100%;
+
+      .container {
+        &__greetings {
+          margin: 0;
+        }
+
+        &::after {
+          display: none;
+        }
+      }
+    }
+    .arrow {
+      display: none;
     }
   }
 }

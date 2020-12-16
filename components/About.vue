@@ -4,41 +4,47 @@
       <img src="~/assets/images/turkish-coffee.jpg" alt="" />
     </div>
     <div class="about__text">
-      <h2 class="about__title">About the dev (me)</h2>
+      <h2 class="about__title">About me</h2>
       <p>
         I'm a front-end developer in Toronto currently working @
-        <a href="https://fueled.com/reem" rel="noreferrer noopener" target="_blank"
+        <a
+          href="https://fueled.com/reem"
+          rel="noreferrer noopener"
+          target="_blank"
           >Fueled</a
         >
         <span role="img" aria-label="fuel pump">⛽️</span>!
       </p>
       <br />
-      <br>
+      <br />
       <p>
-        I'm really into web accessibility
-        (<a
+        I'm really into web accessibility (<a
           href="https://fueled.com/blog/what-is-web-accessibility/"
           rel="noreferrer noopener"
           target="_blank"
           class="accessibility-article"
           >peep my article</a
-        >)
-        and focusing on the user experience. I'm dabbling with creative web
+        >) and focusing on the user experience. I'm dabbling with creative web
         design and I'm excited to see where all these skills take me over time.
       </p>
       <br />
       <p>
         Like every developer, my blood runs on coffee
-        <span role="img" aria-label="cup of coffee">☕️</span>. I'm really into Levantine cooking
-        <span role="img" aria-label="female chef holding spatula">👩🏻‍🍳</span>,
-      
-       a new fan of dystopian books
+        <span role="img" aria-label="cup of coffee">☕️</span>. I'm really into
+        Levantine cooking
+        <span role="img" aria-label="female chef holding spatula">👩🏻‍🍳</span>, a
+        new fan of dystopian books
         <span role="img" aria-label="zombie with arms out">🧟‍♀️</span>, recent
         plant mama <span role="img" aria-label="sunflower">🌻</span>, and
         aspiring cottage-core lady
         <span role="img" aria-label="farm girl with carrot and straw hat"
           >👩🏻‍🌾</span
         >.
+      </p>
+      <br />
+      <p>
+        Still curious? Here's a little profile about me from <a href="https://junocollege.com/blog/from-data-scientist-to-web-developer" rel="noreferrer noopener"
+          target="_blank">Juno College</a>. I'm a proud alum!
       </p>
     </div>
   </div>
@@ -102,7 +108,36 @@ export default {}
   }
 
   &__title {
-   color: $navy;
+    color: $navy;
+  }
+
+  @include max-width(1170) {
+    flex-direction: column;
+    padding: 30px;
+    &__image {
+      // display: none;
+      position: relative;
+      width: 100%;
+      margin: 0;
+      height: 250px;
+      margin-bottom: 30px;
+
+      img {
+        height: 250px;
+        width: 100%;
+      }
+    }
+
+    &__text {
+      width: 100%;
+    }
+  }
+
+  @include max-width(600) {
+    border: 0;
+    border-top: 2px dashed $orange;
+    border-bottom: 2px dashed $orange;
+    padding: 10px;
   }
 }
 </style>

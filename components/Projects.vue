@@ -162,7 +162,6 @@ export default {}
   margin-bottom: 150px;
   display: flex;
   flex-direction: column;
-  border: 4px dashed $orange;
   h2 {
     color: $navy;
     margin: 0 80px;
@@ -171,12 +170,11 @@ export default {}
 
   .project {
     border: 4px dashed $darkTeal;
-    width: 80%;
     display: flex;
     justify-content: space-evenly;
     height: 100%;
     position: relative;
-    margin: 0 80px;
+    // margin: 0 80px;
     margin-bottom: 100px;
     &__image {
       height: calc(100% + 70px);

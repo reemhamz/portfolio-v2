@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Wip />
+    <!-- <Wip /> -->
     <Nuxt />
   </div>
 </template>

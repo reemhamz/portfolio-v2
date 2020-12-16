@@ -1,0 +1,15 @@
+@import "./variables";
+@import "./type";
+@import "./breakpoints";
+@import "./fonts";
+
+body {
+  font-size: 62.5%;
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 80%;
+
+  @include max-width (700) {
+    width: 100%;
+  }
+}

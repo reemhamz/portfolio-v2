@@ -1,5 +1,5 @@
 <template>
-  <aside class="toolkit">
+  <div class="toolkit">
     <div class="toolkit__info">
       <h2>Pretty good skillset</h2>
       <p>
@@ -48,7 +48,7 @@
         <span class="toolkit__skill">Procreate, Figma, Sketch</span>
       </li>
     </ul>
-  </aside>
+  </div>
 </template>
 
 <script>
@@ -62,7 +62,6 @@ export default {}
   border: 4px dashed $orange;
   display: inline-block;
   position: relative;
-  background-color: $white;
   margin-bottom: 150px;
 
   &__info {

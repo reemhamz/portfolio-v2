@@ -21,7 +21,7 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ['@/assets/setup.css', '@/assets/global.css'],
+  css: ['@/assets/setup.css', '@/assets/global.css', '~/assets/scss/_app.scss'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
@@ -48,7 +48,7 @@ export default {
 
   //style resources object... add your variables/mixins/function files in here, so they would be globally imported to every component!!
   styleResources: {
-    scss: ['~/assets/scss/variables.scss'],
+    scss: ['~/assets/scss/_app.scss'],
   },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
