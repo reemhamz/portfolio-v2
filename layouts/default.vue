@@ -2,6 +2,7 @@
   <div>
     <!-- <Wip /> -->
     <Nuxt />
+    <Footer />
   </div>
 </template>
 

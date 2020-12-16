@@ -3,8 +3,8 @@
     <Header />
     <About />
     <Toolkit />
-    <!-- <Projects /> -->
     <Stuff />
+    <Contact />
     <!-- <nuxt-content :document="welcome" /> -->
   </div>
 </template>

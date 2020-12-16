@@ -8,6 +8,7 @@ body {
   margin: 0 auto;
   max-width: 1400px;
   width: 80%;
+  color: $navy;
 
   @include max-width (700) {
     width: 100%;

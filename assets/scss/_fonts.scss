@@ -44,7 +44,6 @@ h3 {
 h2 {
   font-size: 5.6em;
   margin-bottom: 20px;
-  
 
   @include max-width(600) {
     font-size: 5em;
@@ -80,32 +79,29 @@ a {
   position: relative;
   transition: color 0.3s ease;
   padding: 0 2px;
-}
 
-a:hover {
-  color: white;
-  z-index: 100;
-}
+  &:before {
+    content: '';
+    background-color: rgba($darkTeal, 0.3);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    transition: height 0.2s ease-in-out;
+  }
 
-a:before {
-  content: '';
-  background-color: #006c67;
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  height: 2px;
-  width: 100%;
-  transition: height 0.2s ease-in-out;
-}
-
-a:hover:before {
-  content: '';
-  background-color: #006c67;
-  position: absolute;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -10;
+  &:hover {
+    &:before {
+      content: '';
+      background-color: rgba($darkTeal, 0.3);
+      position: absolute;
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -10;
+    }
+  }
 }
 
 .button {

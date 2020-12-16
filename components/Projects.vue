@@ -4,7 +4,8 @@
       <h2>Some of my work</h2>
       <p>
         Here are some of my projects I've developed in order to master some
-        languages and frameworks. I'll be adding more sections for the different kind of projects/coding challenges I work on.
+        languages and frameworks. I'll be adding more sections for the different
+        kind of projects/coding challenges I work on.
       </p>
     </div>
     <div class="project left">
@@ -78,6 +79,7 @@
           <a
             href="https://agameofdevs.github.io/westerosi-wiki/"
             class="project__button button"
+            target="_blank"
             rel="noreferrer noopener"
             >View live</a
           >
@@ -85,6 +87,7 @@
             href="https://github.com/agameofdevs/westerosi-wiki"
             class="project__button button"
             target="_blank"
+            rel="noreferrer noopener"
             >View code</a
           >
         </div>
@@ -118,6 +121,7 @@
           <a
             href="https://reemhamz.github.io/trippyTinctureProjectFive/"
             class="project__button button"
+            target="_blank"
             rel="noreferrer noopener"
             >View live</a
           >
@@ -125,6 +129,7 @@
             href="https://github.com/reemhamz/trippyTinctureProjectFive"
             class="project__button button"
             target="_blank"
+            rel="noreferrer noopener"
             >View code</a
           >
         </div>
@@ -156,6 +161,7 @@
           <a
             href="https://reemhamz.github.io/reemHamouiprojectThree/"
             class="project__button button"
+            target="_blank"
             rel="noreferrer noopener"
             >View live</a
           >
@@ -163,6 +169,7 @@
             href="https://github.com/reemhamz/reemHamouiprojectThree"
             class="project__button button"
             target="_blank"
+            rel="noreferrer noopener"
             >View code</a
           >
         </div>
@@ -286,7 +293,8 @@ export default {}
   @include max-width(820) {
     &__head {
       margin-bottom: 20px;
-      h2, p {
+      h2,
+      p {
         margin: 0;
         padding: 0 15px;
       }
