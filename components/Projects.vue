@@ -1,6 +1,12 @@
 <template>
   <div class="projects">
-    <h2>Some of my work</h2>
+    <div class="projects__head">
+      <h2>Some of my work</h2>
+      <p>
+        Here are some of my projects I've developed in order to master some
+        languages and frameworks. I'll be adding more sections for the different kind of projects/coding challenges I work on.
+      </p>
+    </div>
     <div class="project left">
       <div class="project__image">
         <img
@@ -175,10 +181,17 @@ export default {}
   margin-bottom: 150px;
   display: flex;
   flex-direction: column;
-  h2 {
-    color: $navy;
-    margin: 0 80px;
-    margin-bottom: 80px;
+
+  &__head {
+    h2 {
+      color: $navy;
+      margin: 0 80px;
+      margin-bottom: 20px;
+    }
+    p {
+      margin: 0 80px;
+      margin-bottom: 80px;
+    }
   }
 
   .project {
@@ -187,7 +200,6 @@ export default {}
     justify-content: space-evenly;
     height: 100%;
     position: relative;
-    // margin: 0 80px;
     margin-bottom: 100px;
     &__image {
       height: calc(100% + 70px);
@@ -272,10 +284,16 @@ export default {}
   }
 
   @include max-width(820) {
+    &__head {
+      margin-bottom: 20px;
+      h2, p {
+        margin: 0;
+        padding: 0 15px;
+      }
+    }
     .project {
       flex-direction: column;
       padding-top: 20px;
-
       &__image {
         position: relative;
         height: 100%;
