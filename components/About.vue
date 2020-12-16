@@ -118,7 +118,7 @@ export default {}
 
   @include max-width(1170) {
     flex-direction: column;
-    padding: 30px;
+    padding: 0 30px;
     &__image {
       position: relative;
       width: 100%;

@@ -90,26 +90,28 @@ export default {}
   }
 
   @include max-width(1170) {
-    
     &__info {
       margin: 0;
       padding: 30px;
-      
-      p{
+
+      p {
         width: 100%;
       }
     }
   }
 
-  @include max-width(700){
-
+  @include max-width(700) {
     border: 0;
     border-top: 4px dashed $orange;
     border-bottom: 4px dashed $orange;
+    padding: 0;
+    &__info {
+      padding: 15px;
+    }
 
     &__list {
       margin: 0;
-      padding: 0 30px;
+      padding:  15px;
     }
   }
 }
