@@ -1,6 +1,4 @@
-# portfolio-v2
 
-## Build Setup
 
 ```bash
 # install dependencies
