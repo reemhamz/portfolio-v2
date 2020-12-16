@@ -3,7 +3,10 @@
     <h2>Some of my work</h2>
     <div class="project left">
       <div class="project__image">
-        <img src="~assets/images/polaroid.jpg" alt="" />
+        <img
+          src="~assets/images/polaroid.jpg"
+          alt="polaroid camera with a colorful background"
+        />
       </div>
       <div class="project__info">
         <div class="project__title">
@@ -40,7 +43,10 @@
 
     <div class="project right">
       <div class="project__image">
-        <img src="~assets/images/castle.jpg" alt="" />
+        <img
+          src="~assets/images/castle.jpg"
+          alt="castle with trees surrounding it"
+        />
       </div>
       <div class="project__info">
         <div class="project__title">
@@ -81,7 +87,11 @@
 
     <div class="project left">
       <div class="project__image">
-        <img src="~assets/images/potion.jpg" alt="" />
+        <img
+          src="~assets/images/potion.jpg"
+          class="tincture"
+          alt="a small jar with clear liquid inside it closed with a cork on a table"
+        />
       </div>
       <div class="project__info">
         <div class="project__title">
@@ -117,7 +127,10 @@
 
     <div class="project right">
       <div class="project__image">
-        <img src="~assets/images/starbucks.jpg" alt="" />
+        <img
+          src="~assets/images/starbucks.jpg"
+          alt="A starbucks frappaccino with whip cream and chocolate shavings"
+        />
       </div>
       <div class="project__info">
         <div class="project__title">
@@ -230,7 +243,7 @@ export default {}
           content: '';
           position: absolute;
           bottom: 0;
-          height: 20%;
+          height: 15%;
           width: 100%;
           background: rgba($orange, 0.5);
           z-index: -100;
@@ -255,6 +268,48 @@ export default {}
     .project__image {
       right: 0;
       left: auto;
+    }
+  }
+
+  @include max-width(820) {
+    .project {
+      flex-direction: column;
+      padding-top: 20px;
+
+      &__image {
+        position: relative;
+        height: 100%;
+        width: 100%;
+
+        img {
+          height: 250px;
+          width: 100%;
+        }
+
+        .tincture {
+          object-position: right bottom;
+        }
+      }
+
+      &__info {
+        width: 100%;
+
+        h3 {
+          &::before {
+            height: 10%;
+          }
+        }
+      }
+    }
+  }
+
+  @include max-width(500) {
+    .button {
+      width: 100%;
+      margin: 0 auto;
+      align-self: center;
+      text-align: center;
+      margin-bottom: 15px;
     }
   }
 }

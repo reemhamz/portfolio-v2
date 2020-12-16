@@ -90,7 +90,8 @@ export default {}
       }
     }
     .button {
-      margin: 10px 0;
+      margin: 10px;
+      width: 80%;
     }
   }
 }
