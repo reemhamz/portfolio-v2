@@ -114,5 +114,9 @@ export default {}
       padding:  15px;
     }
   }
+
+  @include max-width(600) {
+    margin-bottom: 80px;
+  }
 }
 </style>

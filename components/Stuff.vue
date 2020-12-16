@@ -33,6 +33,10 @@ export default {}
   margin: 0 80px;
   margin-bottom: 150px;
 
+  h2 {
+    color: $navy;
+  }
+
   &__box {
     display: flex;
     justify-content: space-between;
@@ -66,6 +70,27 @@ export default {}
         margin-top: 20px;
         width: 100%;
       }
+    }
+  }
+
+  @include max-width(900){
+    margin: 0;
+    padding: 20px;
+  }
+
+  @include max-width(650) {
+    padding: 15px;
+    &__box {
+      flex-direction: column;
+
+      &--thing {
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 10px;
+      }
+    }
+    .button {
+      margin: 10px 0;
     }
   }
 }

@@ -142,6 +142,7 @@ export default {}
     border-top: 4px dashed $orange;
     border-bottom: 4px dashed $orange;
     padding: 15px;
+    margin-bottom: 80px;
   }
 }
 </style>
