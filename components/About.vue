@@ -1,7 +1,7 @@
 <template class="main">
   <div class="about">
     <div class="about__image">
-      <img src="~/assets/images/turkish-coffee.jpg" alt="" />
+      <img src="~/assets/images/turkish-coffee.jpg" alt="turkish coffee in a traditional and colourful floral cup and plate" />
     </div>
     <div class="about__text">
       <h2 class="about__title">About me</h2>
@@ -22,7 +22,7 @@
           href="https://fueled.com/blog/what-is-web-accessibility/"
           rel="noreferrer noopener"
           target="_blank"
-          class="accessibility-article"
+          class="accessibility-article active-link"
           >peep my article</a
         >) and focusing on the user experience. I'm dabbling with creative web
         design and I'm excited to see where all these skills take me over time.
@@ -48,6 +48,7 @@
           href="https://junocollege.com/blog/from-data-scientist-to-web-developer"
           rel="noreferrer noopener"
           target="_blank"
+          class="active-link"
           >Juno College</a
         >. I'm a proud alum!
       </p>

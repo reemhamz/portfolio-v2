@@ -9,7 +9,7 @@
           framework/language, some cute dev challenges, and I'm starting to do
           some free lance. Check out what I have!
         </p>
-        <NuxtLink to="projects" class="button">View projects</NuxtLink>
+        <NuxtLink to="projects" class="button active-link">View projects</NuxtLink>
       </div>
       <div class="blog stuff__box--thing">
         <h3>Blog <span role="img" aria-label="pot of honey">🍯</span></h3>
@@ -18,7 +18,7 @@
           understand some web dev concepts, this will be updated every now and
           then when I have knowledge to offer.
         </p>
-        <NuxtLink to="blog" class="button">View blog</NuxtLink>
+        <NuxtLink to="blog" class="button active-link">View blog</NuxtLink>
       </div>
     </div>
   </div>

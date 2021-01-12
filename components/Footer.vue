@@ -13,6 +13,7 @@
           href="https://picrew.me/image_maker/380116"
           target="_blank"
           rel="noreferrer noopener"
+          class="active-link"
           >Sagravi</a
         >
       </p>

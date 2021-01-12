@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: "Reem's site", content: "This is my portfolio site! Check out the work I do. I'll be updating frequently" },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/deer-icon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/sunflower.ico' },
       {
         rel: 'stylesheet',
         href:

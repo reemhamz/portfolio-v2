@@ -1,8 +1,8 @@
 <template>
   <div class="blog">
-      <h3>
+      <h2>
           Oops, nothing to see here (yet) ...<span role="img" aria-label="hourglass with sand in it">⏳</span>
-      </h3>
+      </h2>
   </div>
 </template>
 

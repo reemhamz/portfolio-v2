@@ -32,14 +32,14 @@
         <div class="project__buttons">
           <a
             href="https://reemhamz.github.io/pokedex-app/"
-            class="project__button button"
+            class="project__button button active-link"
             rel="noreferrer noopener"
             target="_blank"
             >View live</a
           >
           <a
             href="https://github.com/reemhamz/pokedex-app"
-            class="project__button button"
+            class="project__button button active-link"
             rel="noreferrer noopener"
             target="_blank"
             >View code</a
@@ -71,6 +71,7 @@
               href="https://www.vipinkirthane.com/"
               rel="noreferrer noopener"
               target="_blank"
+              class="active-link"
               >Vipin</a
             >.
           </p>
@@ -78,14 +79,14 @@
         <div class="project__buttons">
           <a
             href="https://agameofdevs.github.io/westerosi-wiki/"
-            class="project__button button"
+            class="project__button button active-link"
             target="_blank"
             rel="noreferrer noopener"
             >View live</a
           >
           <a
             href="https://github.com/agameofdevs/westerosi-wiki"
-            class="project__button button"
+            class="project__button button active-link"
             target="_blank"
             rel="noreferrer noopener"
             >View code</a
@@ -120,14 +121,14 @@
         <div class="project__buttons">
           <a
             href="https://reemhamz.github.io/trippyTinctureProjectFive/"
-            class="project__button button"
+            class="project__button button active-link"
             target="_blank"
             rel="noreferrer noopener"
             >View live</a
           >
           <a
             href="https://github.com/reemhamz/trippyTinctureProjectFive"
-            class="project__button button"
+            class="project__button button active-link"
             target="_blank"
             rel="noreferrer noopener"
             >View code</a
@@ -160,14 +161,14 @@
         <div class="project__buttons">
           <a
             href="https://reemhamz.github.io/reemHamouiprojectThree/"
-            class="project__button button"
+            class="project__button button active-link"
             target="_blank"
             rel="noreferrer noopener"
             >View live</a
           >
           <a
             href="https://github.com/reemhamz/reemHamouiprojectThree"
-            class="project__button button"
+            class="project__button button active-link"
             target="_blank"
             rel="noreferrer noopener"
             >View code</a

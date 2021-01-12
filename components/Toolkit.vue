@@ -9,12 +9,17 @@
           href="https://jamstack.org/"
           rel="noreferrer noopener"
           target="_blank"
+          class="active-link"
           >JamStack <span role="img" aria-label="grapes">🍇</span
           ><span role="img" aria-label="stack of pancakes">🥞</span></a
         >
         because it prioritizes building speedy sites in a super easy way with
         static site generators (this website is actually built using
-        <a href="https://nuxtjs.org/" rel="noreferrer noopener" target="_blank"
+        <a
+          href="https://nuxtjs.org/"
+          rel="noreferrer noopener"
+          target="_blank"
+          class="active-link"
           >Nuxt</a
         >). Anyway, here are my current skills:
       </p>
@@ -111,7 +116,7 @@ export default {}
 
     &__list {
       margin: 0;
-      padding:  15px;
+      padding: 15px;
     }
   }
 

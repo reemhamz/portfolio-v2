@@ -12,7 +12,7 @@
         >
         <h1 class="container__title">Reem Hamoui</h1>
         <div class="container__gpoy">
-          <img src="~/assets/images/me.svg" alt="" />
+          <img src="~/assets/images/me.svg" alt="illustration of me with curly hair, bandana under bangs, hoop earrings, and floral shirt" />
         </div>
         <div class="container__tldr">
           <p>
