@@ -1,4 +1,5 @@
 <template class="main">
+
   <div class="about">
     <div class="about__image">
       <img src="~/assets/images/turkish-coffee.jpg" alt="turkish coffee in a traditional and colourful floral cup and plate" />
@@ -11,6 +12,7 @@
           href="https://fueled.com/reem"
           rel="noreferrer noopener"
           target="_blank"
+          class="active-link"
           >Fueled</a
         >
         <span role="img" aria-label="fuel pump">⛽️</span>!
@@ -69,6 +71,20 @@ export default {}
   border: 4px dashed $orange;
   position: relative;
   margin-bottom: 150px;
+
+  .logo {
+  position: sticky;
+  top: 30px;
+  left: 0;
+  transition: transform 0.3s;
+  z-index: 100;
+  img {
+    height: 80px;
+  }
+  &:hover {
+    transform: scale(0.9);
+  }
+}
 
   &__image {
     margin-left: 80px;

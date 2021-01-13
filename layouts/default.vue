@@ -1,9 +1,7 @@
 <template>
   <div>
     <!-- <Wip /> -->
-    <div class="logo">
-     <NuxtLink to=""> <img src="~assets/images/logo.svg" alt="navy swirl with a circle of flowers and an orange 'R'. Click to go to main page"> </NuxtLink>
-    </div>
+    
     <Nuxt />
     <Footer />
   </div>
@@ -15,6 +13,7 @@
   top: 30px;
   left: 30px;
   transition: transform 0.3s;
+  z-index: 10;
   img {
     height: 80px;
   }
