@@ -1,11 +1,9 @@
 <template>
   <div class="projects">
     <div class="projects__head">
-      <h2>Some of my work</h2>
+      <h2>Portfolio pieces</h2>
       <p>
-        Here are some of my projects I've developed in order to master some
-        languages and frameworks. I'll be adding more sections for the different
-        kind of projects/coding challenges I work on.
+        Projects that showcase some of my skillsets. Enjoy!
       </p>
     </div>
     <div class="project left">
@@ -49,6 +47,44 @@
     </div>
 
     <div class="project right">
+      <div class="project__image">
+        <img
+          src="~assets/images/rosemary.jpg"
+          alt="A starbucks frappaccino with whip cream and chocolate shavings"
+        />
+      </div>
+      <div class="project__info">
+        <div class="project__title">
+          <h3>
+            <span role="img" aria-label="green plant with two leaves">🌱</span>
+            Herbalove Shoppe
+          </h3>
+        </div>
+        <div class="project__text">
+          <p>
+            Vanilla JS shopping cart. The cart's total quantity and price will update based on the quantity of each item placed by user. Will also show a message if order has been fulfilled or an error message if there are no items in cart.
+          </p>
+        </div>
+        <div class="project__buttons">
+          <a
+            href="https://reemhamz.github.io/herbalove-shoppe/"
+            class="project__button button active-link"
+            target="_blank"
+            rel="noreferrer noopener"
+            >View live</a
+          >
+          <a
+            href="https://github.com/reemhamz/herbalove-shoppe"
+            class="project__button button active-link"
+            target="_blank"
+            rel="noreferrer noopener"
+            >View code</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="project left">
       <div class="project__image">
         <img
           src="~assets/images/castle.jpg"
@@ -95,7 +131,7 @@
       </div>
     </div>
 
-    <div class="project left">
+    <div class="project right">
       <div class="project__image">
         <img
           src="~assets/images/potion.jpg"
@@ -137,7 +173,7 @@
       </div>
     </div>
 
-    <div class="project right">
+    <div class="project left">
       <div class="project__image">
         <img
           src="~assets/images/starbucks.jpg"
@@ -193,11 +229,11 @@ export default {}
   &__head {
     h2 {
       color: $navy;
-      margin: 0 80px;
+      // margin: 0 80px;
       margin-bottom: 20px;
     }
     p {
-      margin: 0 80px;
+      // margin: 0 80px;
       margin-bottom: 80px;
     }
   }
