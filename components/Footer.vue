@@ -5,8 +5,8 @@
         Designed and coded w/
         <span
           role="img"
-          aria-label="peach, which means love, because it looks like a chubby heart"
-          >🍑</span
+          aria-label="hand doing the rock n' roll gesture"
+          >🤘🏼</span
         >
         by Reem. Picrew character library by
         <a
