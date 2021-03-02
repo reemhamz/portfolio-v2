@@ -1,18 +1,6 @@
+# View my site here:
+https://reemify.dev
 
-
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## About
+I'm a front-end developer that prioritizes accessibility, modular CSS (no JS-in-CSS pls), and core UX design development.
+Want to connect? Hit me up here: me@reemify.dev
