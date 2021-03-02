@@ -7,15 +7,15 @@
     <div class="about__text">
       <h2 class="about__title">About me</h2>
       <p>
-        I'm a front-end developer in Toronto currently working @
+        I'm a front-end developer in Toronto currently working with
         <a
-          href="https://fueled.com/reem"
+          href="https://healthespresso.com/"
           rel="noreferrer noopener"
           target="_blank"
           class="active-link"
-          >Fueled</a
+          >Health Espresso</a
         >
-        <span role="img" aria-label="fuel pump">⛽️</span>!
+        <span role="img" aria-label="hospital">🏥</span>, and helping build the application and its internal portals. I love health tech!
       </p>
       <br />
       <br />
