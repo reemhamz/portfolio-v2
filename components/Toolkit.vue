@@ -29,7 +29,7 @@
           class="active-link"
           >MERN stack</a
         >
-        realm! Anyway, here are my current skills:
+        realm, and mobile development. Anyway, here are my current skills:
       </p>
     </div>
     <br />
