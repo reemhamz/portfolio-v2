@@ -92,10 +92,6 @@ export default {}
     h2 {
       color: $navy;
     }
-
-    p {
-      width: 80%;
-    }
   }
 
   &__list {

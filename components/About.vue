@@ -15,7 +15,7 @@
           class="active-link"
           >Health Espresso</a
         >
-        <span role="img" aria-label="hospital">🏥</span>, and helping build the application and its internal portals. I love health tech!
+        <span role="img" aria-label="hospital">🏥</span> on a part-time basis (which means I'm open to full-time opportunities).
       </p>
       <br />
       <br />

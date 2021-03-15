@@ -24,7 +24,8 @@
           <p>
             Used the PokéAPI to create a Pokédex-like experience in polaroid
             format. User can flip each polaroid to read a quick description
-            about the selected Pokémon.
+            about the selected Pokémon. I also wrote a whole blogpost about it <a href="https://dev.to/reemhamz/how-react-js-helped-me-start-building-my-dream-website-3jn5" rel="noreferrer noopener"
+            target="_blank" class="active-link">here</a>.
           </p>
         </div>
         <div class="project__buttons">
@@ -102,7 +103,7 @@
           <p>
             Westerosi Wiki showcases the great houses of George RR Martin's
             world of Westeros. User selects a house sigil on the interactive map
-            and is views selected house history. Built alongside
+            to view selected house history. Built alongside
             <a
               href="https://www.vipinkirthane.com/"
               rel="noreferrer noopener"
