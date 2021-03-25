@@ -6,6 +6,44 @@
         Projects that showcase some of my skillsets. Enjoy!
       </p>
     </div>
+      <div class="project right">
+      <div class="project__image">
+        <img
+          src="~assets/images/news.jpg"
+          alt="Lady with the news paper on her head"
+        />
+      </div>
+      <div class="project__info">
+        <div class="project__title">
+          <h3>
+            <span role="img" aria-label="Cedar tree, which is the national tree of Lebanon">🌲</span>
+            LebaNews
+          </h3>
+        </div>
+        <div class="project__text">
+          <p>
+            A site that filters news about Lebanon's economy and political state. Incorporated several API calls news and social media sites. Created this to filter out the news to give me correct information after the <a href="https://en.wikipedia.org/wiki/2020_Beirut_explosion" rel="noreferrer noopener"
+            target="_blank" class="active-link">Beirut blast</a>. Still a WIP.
+          </p>
+        </div>
+        <div class="project__buttons">
+          <a
+            href="https://lebanews.netlify.app/"
+            class="project__button button active-link"
+            rel="noreferrer noopener"
+            target="_blank"
+            >View live</a
+          >
+          <a
+            href="https://github.com/reemhamz/lebanon-news"
+            class="project__button button active-link"
+            rel="noreferrer noopener"
+            target="_blank"
+            >View code</a
+          >
+        </div>
+      </div>
+    </div>
     <div class="project left">
       <div class="project__image">
         <img
