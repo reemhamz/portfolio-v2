@@ -14,7 +14,7 @@
               target="_blank" class="active-link">@reemhamz</a></li>
             <li><span role="img" aria-label="flamingo">🦩</span><span class="contact__type"> Twitter:</span> <a href="https://twitter.com/reemcodes" rel="noreferrer noopener"
               target="_blank" class="active-link"> @reemcodes</a></li>
-            <li><span role="img" aria-label="">📨</span><span class="contact__type"> Email:</span> <a href="mailto:me@reemify.dev" target="_blank" rel="noopener" class="email active-link">me@reemify.dev</a> <span class="sneaky-message">(psst, don't worry, clicking this won't annoyingly open your computer's default mail application)</span></li>
+            <li><span role="img" aria-label="inbox with envelope">📨</span><span class="contact__type"> Email:</span> <a href="mailto:me@reemify.dev" target="_blank" rel="noopener" class="email active-link">me@reemify.dev</a> <span class="sneaky-message">(psst, don't worry, clicking this won't annoyingly open your computer's default mail application)</span></li>
         </ul>
     </div>
   </div>

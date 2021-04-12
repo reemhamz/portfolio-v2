@@ -1,5 +1,4 @@
-<template class="main">
-
+<template>
   <div class="about">
     <div class="about__image">
       <img src="~/assets/images/turkish-coffee.jpg" alt="turkish coffee in a traditional and colourful floral cup and plate" />

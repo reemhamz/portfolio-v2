@@ -1,30 +1,30 @@
 <template>
   <div class="chat">
-    <header class="chat__header">
+    <div class="chat__head">
       Reem IM <span role="img" aria-label="rocketship launching">🚀</span>
-    </header>
+    </div>
     <div class="chat__box">
       <div class="guest">
-        <span class="guest__title">Site Guest says:</span>
-        <p class="guest__text">where am i?</p>
+        <span class="title">Site Guest says:</span>
+        <p class="text">where am i?</p>
       </div>
       <div class="reem">
-        <span class="reem__title">Reem says:</span>
-        <p class="reem__text">
+        <span class="title">Reem says:</span>
+        <p class="text">
           ur on my website. i'm reem, and i've designed this world
           <span role="img" aria-label="globe">🌏</span>
         </p>
       </div>
       <div class="guest">
-        <span class="guest__title">Site Guest says:</span>
-        <p class="guest__text">
+        <span class="title">Site Guest says:</span>
+        <p class="text">
           wow. it's so good to have landed here
           <span role="img" aria-label="smiling face with hearts">🥰</span>
         </p>
       </div>
       <div class="reem">
-        <span class="reem__title">Reem says:</span>
-        <p class="reem__text">
+        <span class="title">Reem says:</span>
+        <p class="text">
           enjoy your stay
           <span role="img" aria-label="8bit purple space monster">👾</span>
         </p>
@@ -39,7 +39,6 @@ export default {}
 
 <style lang="scss" scoped>
 .chat {
-  // height: 100%;
   width: 320px;
   font-family: $Plex;
   display: flex;
@@ -48,7 +47,7 @@ export default {}
   justify-content: center;
   height: 100%;
 
-  &__header {
+  &__head {
     background-color: $orange;
     font-size: 2.4em;
     color: $white;
@@ -72,31 +71,27 @@ export default {}
     .guest {
       margin: 15px 0;
 
-      &__title {
+      .title {
         color: $darkTeal;
-        font-size: 1.6em;
       }
+    }
 
-      &__text {
-        color: $grey;
-        font-size: 1.92em;
-        margin-left: 10px;
-        font-family: $Plex;
-      }
+    .title {
+      font-size: 1.6em;
+    }
+
+    .text {
+      color: rgba($navy, 0.8);
+      font-size: 1.92em;
+      margin-left: 10px;
+      font-family: $Plex;
     }
 
     .reem {
       margin: 15px 0;
 
-      &__title {
+      .title {
         color: $orange;
-        font-size: 1.6em;
-      }
-
-      &__text {
-        color: $grey;
-        font-size: 1.92em;
-        font-family: $Plex;
       }
     }
   }
