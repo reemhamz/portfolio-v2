@@ -6,12 +6,16 @@
     <div class="chat__box">
       <div class="guest">
         <span class="title">Site Guest says:</span>
-        <p class="text">where am i?</p>
+        <p class="text">where am i?
+        <span role="img" aria-label="heart eyes emoji">
+          😍
+        </span>
+        </p>
       </div>
       <div class="reem">
         <span class="title">Reem says:</span>
         <p class="text">
-          ur on my website. i'm reem, and i've designed this world
+          you're on my website. i'm reem, and i've created this world
           <span role="img" aria-label="globe">🌏</span>
         </p>
       </div>

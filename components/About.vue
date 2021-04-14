@@ -17,7 +17,6 @@
         <span role="img" aria-label="hospital">🏥</span> on a part-time basis (which means I'm open to full-time opportunities).
       </p>
       <br />
-      <br />
       <p>
         I'm really into web accessibility (<a
           href="https://fueled.com/blog/what-is-web-accessibility/"
