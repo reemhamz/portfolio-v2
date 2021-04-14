@@ -1,9 +1,11 @@
 <template>
   <div class="blog">
     <h2>Web development feels, opinions, and occasional lessons.</h2>
+
+    <h3>(Actually under development this time)</h3>
     <div class="articles">
       <div class="article" v-for="(article, id) of articles" :key="id">
-        <nuxt-link
+        <!-- <nuxt-link
           :to="{
             name: 'slug',
             params: {
@@ -20,7 +22,7 @@
             <p>{{ article.description }}</p>
             <p>{{ formatDate(article.updatedAt) }}</p>
           </div>
-        </nuxt-link>
+        </nuxt-link> -->
       </div>
     </div>
   </div>
@@ -70,6 +72,14 @@ export default {
 <style lang="scss" scoped>
 .blog {
   min-height: 95vh;
+  text-align: center;
+  padding: 40px 0;
+  h2 {
+    border-bottom: 4px dashed $orange;
+  }
+  h3 {
+    color: $darkTeal;
+  }
 }
 .articles {
   display: flex;
@@ -90,35 +100,33 @@ export default {
   &__image {
     margin-bottom: auto;
     position: relative;
-       img {
+    img {
       display: block;
       max-width: 100%;
       max-height: 100%;
     }
     &::before {
-        content: '';
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-        height: 100%;
-        width: 100%;
-        background: $orange;
-        z-index: -10;
-      }
+      content: '';
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      height: 100%;
+      width: 100%;
+      background: $orange;
+      z-index: -10;
+    }
 
-      &::after {
-        content: '';
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        height: 100%;
-        width: 100%;
+    &::after {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      height: 100%;
+      width: 100%;
 
-        background: rgba($orange, 0.5);
-        z-index: -10;
-      }
- 
-    
+      background: rgba($orange, 0.5);
+      z-index: -10;
+    }
   }
   &__info {
     margin-bottom: auto;
