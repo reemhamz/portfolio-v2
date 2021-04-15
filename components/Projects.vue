@@ -22,7 +22,7 @@
         </div>
         <div class="project__text">
           <p>
-            A site that filters news about Lebanon's economy and political state. Incorporated several API calls news and social media sites. Created this to filter out the news to give me correct information after the <a href="https://en.wikipedia.org/wiki/2020_Beirut_explosion" rel="noreferrer noopener"
+            A site that filters news about Lebanon's economy and political state. Incorporated several API calls from news and social media sites. Created this to filter out the news to give me correct information after the <a href="https://en.wikipedia.org/wiki/2020_Beirut_explosion" rel="noreferrer noopener"
             target="_blank" class="active-link">Beirut blast</a>. Still a WIP.
           </p>
         </div>
