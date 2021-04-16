@@ -263,7 +263,7 @@ export default {}
     border: 4px dashed $darkTeal;
     display: flex;
     justify-content: space-around;
-    height: 300px;
+    height: 330px;
     width: 30%;
     position: relative;
     margin-bottom: 30px;
