@@ -1,8 +1,8 @@
 <template>
-  <div class="stuff">
+  <div class="work">
     <h2>My work and stuff</h2>
-    <div class="stuff__box">
-      <div class="projects stuff__box--thing">
+    <div class="work__box">
+      <div class="projects work__box--thing">
         <h3>Projects <span role="img" aria-label="ball of orange yarn">🧶</span></h3>
         <p>
           I've worked on projects for myself that helped me understand a
@@ -11,7 +11,7 @@
         </p>
         <NuxtLink to="projects" class="button active-link">View projects</NuxtLink>
       </div>
-      <div class="blog stuff__box--thing">
+      <div class="blog work__box--thing">
         <h3>Blog <span role="img" aria-label="pot of honey">🍯</span></h3>
         <p>
           I've done some blogging in the past and realized I want to help people
@@ -29,7 +29,7 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-.stuff {
+.work {
   margin: 0 80px;
   margin-bottom: 150px;
 

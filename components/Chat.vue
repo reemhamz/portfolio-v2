@@ -81,7 +81,9 @@ export default {}
     }
 
     .title {
-      font-size: 1.6em;
+      font-size: 1.8em;
+      // font-weight: bold;
+      font-family: $Plex;
     }
 
     .text {
@@ -95,7 +97,7 @@ export default {}
       margin: 15px 0;
 
       .title {
-        color: $orange;
+        color: $navy;
       }
     }
   }

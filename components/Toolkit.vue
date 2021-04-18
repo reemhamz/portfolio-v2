@@ -21,15 +21,7 @@
           target="_blank"
           class="active-link"
           >Nuxt</a
-        >). I'm also trying to break into the
-        <a
-          href="https://www.mongodb.com/mern-stack"
-          rel="noreferrer noopener"
-          target="_blank"
-          class="active-link"
-          >MERN stack</a
-        >
-        realm, and mobile development. Anyway, here are my current skills:
+        >). I'm also trying to break into mobile development. Anyway, here are my current skills:
       </p>
     </div>
     <br />
@@ -38,7 +30,7 @@
         <span class="toolkit__type"
           ><span role="img" aria-label="brain">🧠</span> Core languages:</span
         >
-        <span class="toolkit__skill">HTML, CSS (+ Sass), JavaScript</span>
+        <span class="toolkit__skill">HTML, CSS (+ Sass, styled-components), JavaScript</span>
       </li>
       <li class="toolkit__list-item">
         <span class="toolkit__type"
@@ -46,7 +38,7 @@
           & Libraries:</span
         >
         <span class="toolkit__skill"
-          >jQuery, React.js, Vue.js, Next.js, Nuxt.js, Node.js</span
+          >jQuery, React.js, React Native, Vue.js, Next.js, Nuxt.js, Node.js, Express.js</span
         >
       </li>
       <li class="toolkit__list-item">

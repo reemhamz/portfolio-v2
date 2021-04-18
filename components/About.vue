@@ -6,15 +6,7 @@
     <div class="about__text">
       <h2 class="about__title">About me</h2>
       <p>
-        I'm a front-end developer in Toronto currently working with
-        <a
-          href="https://healthespresso.com/"
-          rel="noreferrer noopener"
-          target="_blank"
-          class="active-link"
-          >Health Espresso</a
-        >
-        <span role="img" aria-label="hospital">🏥</span> on a part-time basis (which means I'm open to full-time opportunities).
+        I'm a front-end developer in Toronto.
       </p>
       <br />
       <p>
@@ -25,12 +17,12 @@
           class="accessibility-article active-link"
           >peep my article</a
         >) and focusing on the user experience. I'm dabbling with creative web
-        design and I'm excited to see where all these skills take me over time.
+        design & mobile development and I'm excited to see where all these skills take me over time.
       </p>
       <br />
       <p>
         Like every developer, my blood runs on coffee
-        <span role="img" aria-label="cup of coffee">☕️</span>. I'm really into
+        <span role="img" aria-label="cup of coffee">☕️</span>, I'm really into
         Levantine cooking
         <span role="img" aria-label="female chef holding spatula">👩🏻‍🍳</span>, a
         new fan of dystopian books

@@ -11,7 +11,7 @@
           href="https://picrew.me/image_maker/380116"
           target="_blank"
           rel="noreferrer noopener"
-          class="active-link"
+          
           >Sagravi</a
         >
       </p>
@@ -26,7 +26,7 @@ export default {}
 <style lang="scss" scoped>
 footer {
   z-index: 100000;
-  background-color: $orange;
+  background-color: $navy;
   width: 100%;
   padding: 10px;
   clear: both;
@@ -39,6 +39,11 @@ footer {
 
     a {
       color: $white !important;
+      border: 1px solid transparent;
+      transition: 0.5s border;
+      &::hover {
+        border: 1px solid white;
+      }
     }
   }
 }
