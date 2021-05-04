@@ -8,14 +8,24 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: "Reem's site", content: "This is my portfolio site! Check out the work I do. I'll be updating frequently" },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Reem is a frontend developer based in Toronto, and she loves web development intermixed with UX/UI design!',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/sunflower.ico' },
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200&family=Niramit:wght@200;300;400&display=swap',
+          'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200&family=Niramit:wght@200;300;400,600&display=swap&family=Assistant:wght@200;300,400,500;600&display=swap',
+      },
+      {
+        hid: 'canonical',
+        rel: 'canonical',
+        href: 'https://reemify.dev',
       },
     ],
   },

@@ -352,18 +352,18 @@ export default {
 
 <style lang="scss" scoped>
 .projects {
-  padding: 40px 0;
-  margin-bottom: 150px;
+  padding: 20px 0;
+  // margin-bottom: 150px;
   display: flex;
   flex-wrap: wrap;
 
   &__head {
     h2 {
       color: $navy;
-      margin-bottom: 20px;
+      margin-top: 80px;
     }
     p {
-      margin-bottom: 80px;
+      margin-bottom: 40px;
     }
   }
 

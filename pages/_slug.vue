@@ -1,5 +1,6 @@
 <template>
   <article>
+    <Nav />
     <nuxt-content :document="article" />
   </article>
 </template>
@@ -8,7 +9,6 @@
 export default {
   async asyncData({ $content, params }) {
      const article = await $content('articles', params.slug).fetch()
-
       return { article }
   },
 }
@@ -16,7 +16,11 @@ export default {
 
 <style>
 article{
-  background: pink;
+  min-height: 100vh;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  
 }
   
 </style>

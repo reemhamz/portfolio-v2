@@ -18,6 +18,7 @@
 
 $Niramit: 'Niramit', sans-serif;
 $Plex: 'IBM Plex Mono', monospace;
+$Assistant: 'Assistant', sans-serif;
 $ProspectusBold: 'Prospectus Bold', serif;
 $ProspectusReg: 'Prospectus Regular', serif;
 $ProspectusLight: 'Prospectus Light', serif;
@@ -58,8 +59,9 @@ h3 {
 p,
 li,
 button,
-span, a {
-  font-family: 'Niramit', sans-serif;
+span,
+a {
+  font-family: $Assistant;
   font-weight: 300;
 }
 
@@ -134,4 +136,48 @@ img {
 
 .button:hover:before {
   position: static;
+}
+
+// blog article styling because can't style properly in slug file
+article {
+  p {
+    font-family: $Assistant;
+    font-weight: 400;
+    font-size: 2.2em;
+  }
+
+  h2 {
+  margin-top: 80px;
+  font-size: 5em;
+}
+
+h3 {
+  font-size: 3.5em;
+  color: $darkTeal;
+}
+h4 {
+  font-family: $ProspectusReg;
+  font-size: 3em;
+  color: $orange;
+}
+blockquote {
+  background: rgba($darkTeal, 0.1);
+  border-left: 10px solid $darkTeal;
+  margin: 1.5em 10px;
+  padding: 15px;
+  quotes: "\201C""\201D""\2018""\2019";
+  border-radius: 5px;
+}
+blockquote:before {
+  color: $darkTeal;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  font-size: 2.2em;
+}
 }

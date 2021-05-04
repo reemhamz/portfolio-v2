@@ -1,11 +1,11 @@
 <template>
   <div class="blog">
-    <h2>Web development feels, opinions, and occasional lessons.</h2>
+<Nav />
+    <h2>Web development feels, opinions, and occasional lessons...</h2>
 
-    <h3>(Actually under development this time)</h3>
     <div class="articles">
       <div class="article" v-for="(article, id) of articles" :key="id">
-        <!-- <nuxt-link
+        <nuxt-link
           :to="{
             name: 'slug',
             params: {
@@ -14,15 +14,15 @@
           }"
           class="article__link"
         >
-          <div class="article__image">
+          <!-- <div class="article__image">
             <img :src="require(`~/assets/blog/${article.img}`)" alt="" />
-          </div>
+          </div> -->
           <div class="article__info">
             <h3>{{ article.title }}</h3>
             <p>{{ article.description }}</p>
-            <p>{{ formatDate(article.updatedAt) }}</p>
+            <p>Published: {{ formatDate(article.updatedAt) }}</p>
           </div>
-        </nuxt-link> -->
+        </nuxt-link>
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@ export default {
       .only([
         'title',
         'description',
-        'img',
+        // 'img',
         'slug',
         'createdAt',
         'updatedAt',
@@ -72,10 +72,9 @@ export default {
 <style lang="scss" scoped>
 .blog {
   min-height: 95vh;
-  text-align: center;
   padding: 40px 0;
   h2 {
-    border-bottom: 4px dashed $orange;
+    margin-top: 80px;
   }
   h3 {
     color: $darkTeal;
@@ -83,49 +82,28 @@ export default {
 }
 .articles {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  align-items: flex-start;
 }
 .article {
-  margin: 30px;
-  width: 40%;
-  height: 400px;
-  padding: 10px;
+  margin: 30px 0;
+  width: 100%;
+  height: 250px;
+  transition: 0.5s box-shadow;
+
   &__link {
     display: flex;
     flex-direction: column;
     height: 100%;
-    border: 4px dashed $navy;
-  }
-  &__image {
-    margin-bottom: auto;
-    position: relative;
-    img {
-      display: block;
-      max-width: 100%;
-      max-height: 100%;
+    width: 100%;
+    border: 2px solid $navy;
+    text-decoration: none;
+    border-radius: 4px;
+    p{
+      color: $navy;
+      font-weight: 400;
     }
-    &::before {
-      content: '';
-      position: absolute;
-      bottom: 10px;
-      right: 10px;
-      height: 100%;
-      width: 100%;
-      background: $orange;
-      z-index: -10;
-    }
-
-    &::after {
-      content: '';
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      height: 100%;
-      width: 100%;
-
-      background: rgba($orange, 0.5);
-      z-index: -10;
+    &::hover {
+      box-shadow: 10px 5px blue;
     }
   }
   &__info {
