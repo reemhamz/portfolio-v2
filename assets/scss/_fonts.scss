@@ -22,6 +22,14 @@ $Assistant: 'Assistant', sans-serif;
 $ProspectusBold: 'Prospectus Bold', serif;
 $ProspectusReg: 'Prospectus Regular', serif;
 $ProspectusLight: 'Prospectus Light', serif;
+$DMSans: "DM Sans", sans-serif;
+
+* {
+  &::selection{
+    background-color: $darkTeal;
+    color: $white;
+  }
+}
 
 h1 {
   font-size: 8em;
@@ -144,6 +152,7 @@ article {
     font-family: $Assistant;
     font-weight: 400;
     font-size: 2.2em;
+    line-height: 1.6em;
   }
 
   h2 {
@@ -154,11 +163,13 @@ article {
 h3 {
   font-size: 3.5em;
   color: $darkTeal;
+  font-family: $Assistant;
 }
 h4 {
-  font-family: $ProspectusReg;
+  font-family: $Assistant;
   font-size: 3em;
   color: $orange;
+
 }
 blockquote {
   background: rgba($darkTeal, 0.1);

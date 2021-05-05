@@ -20,7 +20,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200&family=Niramit:wght@200;300;400,600&display=swap&family=Assistant:wght@200;300,400,500;600&display=swap',
+          'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200&family=Niramit:wght@200;300;400,600&display=swap&family=Assistant:wght@200;300,400,500;600&display=swap&family=DM+Sans:wght@400;500;700&display=swap',
       },
       {
         hid: 'canonical',

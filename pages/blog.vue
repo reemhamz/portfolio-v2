@@ -1,7 +1,10 @@
 <template>
   <div class="blog">
-<Nav />
-    <h2>Web development feels, opinions, and occasional lessons...</h2>
+    <Nav />
+    <div class="blog__header">
+      <h2>Blog.</h2>
+      <h3>Web development opinions, feels, and occasional lessons, alongside some other things I want to write about.</h3>
+    </div>
 
     <div class="articles">
       <div class="article" v-for="(article, id) of articles" :key="id">
@@ -72,12 +75,19 @@ export default {
 <style lang="scss" scoped>
 .blog {
   min-height: 95vh;
-  padding: 40px 0;
-  h2 {
-    margin-top: 80px;
-  }
-  h3 {
-    color: $darkTeal;
+  &__header {
+    padding: 40px 0;
+    h2 {
+      margin-top: 80px;
+    }
+    h3 {
+      color: $darkTeal;
+      font-family: $DMSans;
+      color: $grey;
+      font-weight:400;
+      font-size: 2.5em;
+      width: 70%;
+    }
   }
 }
 .articles {
@@ -87,18 +97,20 @@ export default {
 .article {
   margin: 30px 0;
   width: 100%;
-  height: 250px;
+  height: 200px;
   transition: 0.5s box-shadow;
-
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 20px rgba($navy, 0.4);
+  border-radius: 10px;
   &__link {
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
-    border: 2px solid $navy;
+
     text-decoration: none;
     border-radius: 4px;
-    p{
+    p {
       color: $navy;
       font-weight: 400;
     }
