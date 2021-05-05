@@ -20,7 +20,7 @@
       </li>
       <li>
         <nuxt-link to="/#contact"
-          ><span role="img" aria-label="red phone" aria-hidden="true">☎️</span>
+          ><span role="img" aria-label="hand wave" aria-hidden="true">👋🏻</span>
           contact</nuxt-link
         >
       </li>
