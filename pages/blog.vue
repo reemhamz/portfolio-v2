@@ -1,6 +1,5 @@
 <template>
   <div class="blog">
-    <Nav />
     <div class="blog__header">
       <h2>Blog.</h2>
       <h3>Web development opinions, feels, and occasional lessons, alongside some other things I want to write about.</h3>

@@ -144,10 +144,8 @@ export default {}
     }
   }
 
-  @include max-width(600) {
+  @include max-width(700) {
     border: 0;
-    border-top: 4px dashed $orange;
-    border-bottom: 4px dashed $orange;
     padding: 15px;
     margin-bottom: 80px;
   }
