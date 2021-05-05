@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Nav />
     <Projects />
   </div>
 </template>

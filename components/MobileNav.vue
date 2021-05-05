@@ -1,5 +1,5 @@
 <template>
-  <nav class="navigation">
+  <nav class="mobileNavigation">
     <ul>
       <span>
         <li><nuxt-link to="/">reem hamoui</nuxt-link></li>
@@ -36,24 +36,29 @@ export default {
 
 <style lang="scss" scoped>
 nav {
-  background-color: $white;
+//   background-color: $white;
   padding-top: 5px;
   z-index: 1000;
+  height: 100%;
   position: fixed;
+  background-color: rgba($navy, 0.9);
   top: 0;
-  width: 100%;
+  width: 40%;
   left: 0;
+  padding-top: 20px;
   ul {
     display: flex;
+    flex-direction: column;
     list-style: none;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     li {
       margin: 0 20px;
       padding: 10px;
       transition: 0.3s;
       border-radius: 6px;
       border: 1px solid rgba(0, 0, 0, 0);
+      font-size: 2.5em;
       &:hover {
         border: 1px solid rgba(0, 0, 0, 0.1);
         box-shadow: 0 0px 20px rgba($navy, 0.4);
@@ -61,10 +66,11 @@ nav {
       a {
         padding: 10px;
         height: 10%;
+        color: white;
       }
     }
     span {
-      margin-right: auto;
+    //   margin-right: auto;
       a {
         font-size: 1.9em;
         border-bottom: 2px solid $orange;
@@ -79,10 +85,6 @@ nav {
       font-size: 1.2em;
       font-weight: 500;
     }
-  }
-
-  @include max-width(815){
-
   }
 }
 </style>
