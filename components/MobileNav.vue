@@ -46,6 +46,9 @@ nav {
   width: 40%;
   left: 0;
   padding-top: 20px;
+  @include max-width(600){
+      width: 100%;
+  }
   ul {
     display: flex;
     flex-direction: column;
