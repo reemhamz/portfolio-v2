@@ -6,7 +6,7 @@
       <h3>Web development opinions, feels, and occasional lessons, alongside some other things I want to write about.</h3>
     </div>
 
-    <div class="articles">
+    <!-- <div class="articles">
       <div class="article" v-for="(article, id) of articles" :key="id">
         <nuxt-link
           :to="{
@@ -16,18 +16,18 @@
             },
           }"
           class="article__link"
-        >
+        > -->
           <!-- <div class="article__image">
             <img :src="require(`~/assets/blog/${article.img}`)" alt="" />
           </div> -->
-          <div class="article__info">
+          <!-- <div class="article__info">
             <h3>{{ article.title }}</h3>
             <p>{{ article.description }}</p>
             <p>Published: {{ formatDate(article.updatedAt) }}</p>
           </div>
         </nuxt-link>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

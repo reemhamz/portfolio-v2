@@ -92,11 +92,14 @@ export default {}
   }
 
   &__type {
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 1.1em;
   }
 
   &__skill {
-    font-size: 0.9em;
+    font-size: 1em;
+    font-weight: 400;
+
   }
 
   @include max-width(1170) {

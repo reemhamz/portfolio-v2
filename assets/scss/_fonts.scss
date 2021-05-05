@@ -34,7 +34,7 @@ $DMSans: "DM Sans", sans-serif;
 h1 {
   font-size: 8em;
   color: #cb7752;
-  font-family: $ProspectusBold;
+  font-family: $ProspectusBold; 
   text-transform: lowercase;
   font-weight: 300;
   line-height: 0.8;
@@ -71,6 +71,10 @@ span,
 a {
   font-family: $Assistant;
   font-weight: 300;
+}
+
+p {
+  font-weight: 400;
 }
 
 p,
