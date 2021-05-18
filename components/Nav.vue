@@ -2,7 +2,9 @@
   <nav class="navigation">
     <ul>
       <span>
-        <li><nuxt-link to="/">reem hamoui</nuxt-link></li>
+        <li>
+          <nuxt-link to="/"><span aria-hidden="true">🌻</span>rh.</nuxt-link>
+        </li>
       </span>
       <li>
         <nuxt-link to="/blog"
@@ -29,9 +31,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style lang="scss" scoped>
@@ -66,7 +66,7 @@ nav {
     span {
       margin-right: auto;
       a {
-        font-size: 1.9em;
+        font-size: 2.2em;
         border-bottom: 2px solid $orange;
         color: $orange;
         padding: 0;
@@ -81,8 +81,7 @@ nav {
     }
   }
 
-  @include max-width(815){
-
+  @include max-width(815) {
   }
 }
 </style>
